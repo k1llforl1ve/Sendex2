@@ -13,7 +13,9 @@ if ($transport->xpdo) {
             $modx->addPackage('stoma', $modelPath);
 
             $manager = $modx->getManager();
-            $objects = array();
+            $objects = array(
+                'StomaItem',
+            );
             $schemaFile = MODX_CORE_PATH . 'components/stoma/model/schema/stoma.mysql.schema.xml';
             if (is_file($schemaFile)) {
                 $schema = new SimpleXMLElement($schemaFile, 0, true);
