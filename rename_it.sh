@@ -3,9 +3,9 @@
 repl1=yourName
 repl2=yourname
 
-find1=modExtra
-find2=modextra
-path=./modExtra
+find1=Stoma
+find2=stoma
+path=./Stoma
 
 repl3=$repl1"ManagerController"
 
@@ -25,7 +25,7 @@ do
     sed -e $reg $i > ${i}.bak
     mv ${i}.bak $i
 
-    reg="s/$repl3/modExtraManagerController/g"
+    reg="s/$repl3/StomaManagerController/g"
     sed -e $reg $i > ${i}.bak
     mv ${i}.bak $i
 

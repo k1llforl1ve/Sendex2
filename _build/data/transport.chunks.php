@@ -5,11 +5,11 @@
 $chunks = array();
 
 $tmp = array(
-    'tpl.modExtra.item' => array(
+    'tpl.Stoma.item' => array(
         'file' => 'item',
         'description' => '',
     ),
-    'tpl.modExtra.office' => array(
+    'tpl.Stoma.office' => array(
         'file' => 'office',
         'description' => '',
     ),
