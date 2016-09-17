@@ -1,0 +1,1 @@
+<div id="stoma-panel-home-div"></div>
